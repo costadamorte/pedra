@@ -1,0 +1,27 @@
+/* set background color of header */
+header {
+  background-color: #007BC4;
+}
+
+/* set width and height of main */
+main {
+  width: 75%;
+  height: 100vh;
+  background-color: white;
+  float: left;
+}
+
+/* set width and height of aside */
+aside {
+  width: 25%;
+  height: 100vh;
+  background-color: #007BC433;
+  float: left;
+}
+
+/* set background color and width of footer */
+footer {
+  background-color: #1A1A1D;
+  width: 100vw;
+  clear: both;
+}
