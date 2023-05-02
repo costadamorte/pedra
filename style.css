@@ -64,6 +64,11 @@ main {
   margin:50px auto;
 }
 
+#container iframe{
+  display: block;
+  margin:50px auto;
+}
+
 /* set width and height of aside */
 aside {
   width: 25%;
