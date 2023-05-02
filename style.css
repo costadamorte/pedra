@@ -1,14 +1,67 @@
 /* set background color of header */
+  /*Importar fontes*/
+  @import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+  @import url('https://fonts.googleapis.com/css?family=Ubuntu&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700;800&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Cantarell&display=swap');
+
+body{
+  background-color: #F4F4F4;  
+  margin:0;
+  padding:0;
+  overflow-y: scroll;
+}
+
 header {
-  background-color: #007BC4;
+  background-color: #000;
+  height:120px;
+  display: flex;  
+  align-items: center;
+  font-size: 2em;
+
+}
+
+header nav ul li{
+  display:inline;
+  font-size: 2em;
+
+}
+
+header nav ul li button{
+  height:40px;
+  width:auto;
+  padding: 10px 20px;
+  font-size: 0.3em;
+
 }
 
 /* set width and height of main */
 main {
-  width: 75%;
-  height: 100vh;
-  background-color: white;
-  float: left;
+  width: 100vw;
+  min-height: 100vh;
+  background-color: #F4F4F4;  
+  font-family: 'Cantarell';
+  color: gray;
+  
+}
+
+#container{
+  width: 95vw;
+  min-height: 100vh;
+  margin:20px auto;
+  background-color: white; 
+  text-align: left;
+  padding:20px;
+ 
+}
+
+#container img{
+  display: block;
+  margin:50px auto;
 }
 
 /* set width and height of aside */
@@ -21,7 +74,8 @@ aside {
 
 /* set background color and width of footer */
 footer {
-  background-color: #1A1A1D;
+  background-color: black;
   width: 100vw;
+  height: 100px;
   clear: both;
 }
